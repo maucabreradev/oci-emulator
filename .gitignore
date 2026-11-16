@@ -1,0 +1,46 @@
+# Local credentials and emulator state
+.oci/
+.venv/
+data/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backend build output
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Frontend dependencies and output
+node_modules/
+console/node_modules/
+console/dist/
+console/.angular/
+.angular/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# OS and temporary files
+*.tmp
+*.temp
+tmp/
+
+# Tracked on purpose:
+# - .java-version pins the Java version.
+# - opencode.jsonc contains MCP configuration without secrets.
+# - AGENTS.md, STATE.md, docs/, and .scratch/tasks/ are part of the project record.
+# If a tool configuration ever needs a secret, keep the secret out of the file
+# and use {env:NAME} substitution.

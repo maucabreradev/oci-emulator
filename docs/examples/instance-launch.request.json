@@ -1,0 +1,18 @@
+{
+  "compartmentId": "ocid1.compartment.oc1..demo",
+  "availabilityDomain": "AD-1",
+  "displayName": "demo-instance",
+  "shape": "VM.Standard.E4.Flex",
+  "shapeConfig": {
+    "ocpus": 1,
+    "memoryInGBs": 16
+  },
+  "imageId": "ocid1.image.oc1..demo",
+  "subnetId": "ocid1.subnet.oc1..demo",
+  "assignPublicIp": true,
+  "hostnameLabel": "demo-instance",
+  "freeformTags": {
+    "environment": "lab",
+    "owner": "emulator"
+  }
+}

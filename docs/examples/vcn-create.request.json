@@ -1,0 +1,15 @@
+{
+  "cidrBlock": "10.0.0.0/16",
+  "compartmentId": "ocid1.compartment.oc1..demo",
+  "displayName": "demo-vcn",
+  "dnsLabel": "demovcn",
+  "freeformTags": {
+    "environment": "lab",
+    "owner": "emulator"
+  },
+  "definedTags": {
+    "Operations": {
+      "CostCenter": "demo"
+    }
+  }
+}

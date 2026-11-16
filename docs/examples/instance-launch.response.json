@@ -1,0 +1,21 @@
+{
+  "id": "ocid1.instance.oc1..demo",
+  "compartmentId": "ocid1.compartment.oc1..demo",
+  "availabilityDomain": "AD-1",
+  "displayName": "demo-instance",
+  "shape": "VM.Standard.E4.Flex",
+  "shapeConfig": {
+    "ocpus": 1,
+    "memoryInGBs": 16
+  },
+  "imageId": "ocid1.image.oc1..demo",
+  "subnetId": "ocid1.subnet.oc1..demo",
+  "lifecycleState": "PROVISIONING",
+  "region": "us-ashburn-1",
+  "timeCreated": "2026-11-16T18:00:00Z",
+  "freeformTags": {
+    "environment": "lab",
+    "owner": "emulator"
+  },
+  "definedTags": {}
+}

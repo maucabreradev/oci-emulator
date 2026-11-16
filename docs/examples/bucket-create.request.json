@@ -1,0 +1,11 @@
+{
+  "name": "demo-bucket",
+  "compartmentId": "ocid1.compartment.oc1..demo",
+  "storageTier": "Standard",
+  "publicAccessType": "NoPublicAccess",
+  "objectEventsEnabled": false,
+  "freeformTags": {
+    "environment": "lab",
+    "owner": "emulator"
+  }
+}

@@ -1,0 +1,22 @@
+# Backend: Maven, Quarkus, Quinoa
+target/
+
+# Frontend: pnpm, Angular
+node_modules/
+.pnpm-store/
+.angular/
+console/dist/
+
+# Tests: Vitest, Playwright
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Emulator CLI
+data/
+.oci/
+.venv/
+
+# Local
+tmp/

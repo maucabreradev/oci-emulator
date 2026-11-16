@@ -1,0 +1,16 @@
+{
+  "namespace": "ociemu",
+  "name": "demo-bucket",
+  "compartmentId": "ocid1.compartment.oc1..demo",
+  "createdBy": "ocid1.user.oc1..emulator",
+  "timeCreated": "2026-11-16T18:00:00Z",
+  "etag": "2026-11-16T18:00:00Z",
+  "publicAccessType": "NoPublicAccess",
+  "storageTier": "Standard",
+  "objectEventsEnabled": false,
+  "freeformTags": {
+    "environment": "lab",
+    "owner": "emulator"
+  },
+  "definedTags": {}
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // Project-level MCP servers for OCI Emulator.
+  // Do not put secrets in this file. Use {env:NAME} substitutions instead.
+  "mcp": {
+    "servers": {
+      // Up-to-date library documentation for Quarkus, Angular, Transloco,
+      // ng2-charts, and other dependencies.
+      "context7": {
+        "type": "remote",
+        "url": "https://mcp.context7.com/mcp",
+        "oauth": false,
+        "headers": {
+          "Authorization": "Bearer {env:CONTEXT7_API_KEY}",
+        },
+      },
+
+      // Issues, pull requests, and repository metadata.
+      "github": {
+        "type": "remote",
+        "url": "https://api.githubcopilot.com/mcp/",
+        "oauth": false,
+        "headers": {
+          "Authorization": "Bearer {env:GITHUB_TOKEN}",
+        },
+      },
+
+      // Browser automation for E2E tests, SSR checks, screenshots,
+      // and accessibility validation of the Angular console.
+      "playwright": {
+        "type": "local",
+        "command": ["pnpx", "-y", "@playwright/mcp@0.0.85"],
+      },
+    },
+  },
+}
